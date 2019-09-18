@@ -8,7 +8,7 @@ sections:
   path: content/staff
   label: Staff
   create: all
-  match: "**/_index.html"
+  match: "**/_index.md"
   templates:
   - staff-member
 - type: directory
