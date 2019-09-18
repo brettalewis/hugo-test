@@ -18,5 +18,3 @@ fields:
       format: markdown
   label: Bio
   description: Biography
-pages:
-- content/staff/adrienne.md
