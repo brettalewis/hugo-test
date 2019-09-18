@@ -1,6 +1,5 @@
 +++
 bio = ""
-draft = true
 name = "Lindsey"
 
 +++
