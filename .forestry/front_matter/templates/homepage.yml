@@ -1,4 +1,32 @@
 ---
 label: Homepage
 hide_body: true
-fields: []
+fields:
+- name: event
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: Description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: description
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
+  config:
+    min: 
+    max: '3'
+    labelField: 
+  label: Event
+  description: Events
